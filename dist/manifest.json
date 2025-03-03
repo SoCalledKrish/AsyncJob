@@ -1,0 +1,32 @@
+{
+    "name": "Asyncreport",
+    "extension-version": "1.0.0",
+    "sdk-version": "7.13.0",
+    "publisher": "Sample",
+    "cards": [
+        {
+            "type": "AsyncreportCard",
+            "title": "Asyncreport Card",
+            "displayCardType": "Asyncreport Card",
+            "description": "This is an introductory card to the Ellucian Experience SDK",
+            "componentFile": "AsyncreportCard-35ef7280e8b61fb209c8.js",
+            "pageRoute": {
+                "route": "/",
+                "excludeClickSelectors": [
+                    "a"
+                ]
+            },
+            "previewId": "all-accounts|Sample|Asyncreport|AsyncreportCard"
+        }
+    ],
+    "adminComponents": [],
+    "otherAssets": [],
+    "page": {
+        "componentFile": "Page-fc358f1e8f189e217373.js",
+        "allowPublicAccess": false,
+        "fullWidth": false,
+        "backgroundColor": "default"
+    },
+    "group": "all-accounts",
+    "previewExtId": "all-accounts|Sample|Asyncreport"
+}
